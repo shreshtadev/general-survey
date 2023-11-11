@@ -2,7 +2,7 @@
 
 General Survey Services
 
-1. Family Details (By Company)
+1. Family Details
 2. Family Member Details
 
 #### License
