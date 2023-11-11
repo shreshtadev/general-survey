@@ -1,0 +1,29 @@
+{% extends "templates/web.html" %}
+
+{% block page_content %}
+
+<div class="py-20 row">
+<div class="col-sm-2">
+</div>
+<div class="col">
+<h1>{{ full_name }}</h1>
+<div class="lead">
+    <p>Family ID: {{ family_id }}</p>
+    <p>Email Address: {{ email_address }}</p>
+    <p>Phone Number: {{ phone_number }}</p>
+    <p>Veda: {{veda}} </p>
+    <p>Gotra: {{gotra}}</p>
+</div>
+<div class="mt-4">
+    <p>Taluk: {{ taluk }}</p>
+    <p>Area: {{ area }}</p>
+    <p>Profession: {{ profession }}</p>
+    <p>Category: {{category}}</p>
+    <p>Sub Category: {{sub_category}}</p>
+</div>
+</div>
+</div>
+
+{% endblock %}
+
+<!-- this is a sample default web page template -->

@@ -26,8 +26,10 @@
   "section_break_mymw",
   "email_address",
   "profession",
+  "is_published",
   "column_break_hvap",
-  "phone_number"
+  "phone_number",
+  "route"
  ],
  "fields": [
   {
@@ -130,11 +132,24 @@
   {
    "fieldname": "column_break_hvap",
    "fieldtype": "Column Break"
+  },
+  {
+   "default": "1",
+   "fieldname": "is_published",
+   "fieldtype": "Check",
+   "label": "Is Published"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route"
   }
  ],
+ "has_web_view": 1,
  "index_web_pages_for_search": 1,
+ "is_published_field": "is_published",
  "links": [],
- "modified": "2023-10-24 16:59:36.151777",
+ "modified": "2023-11-10 00:00:35.521865",
  "modified_by": "Administrator",
  "module": "General Survey",
  "name": "Family",
@@ -165,6 +180,7 @@
   }
  ],
  "quick_entry": 1,
+ "route": "families",
  "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",

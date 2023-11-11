@@ -19,14 +19,17 @@
   "age",
   "section_break_ogvn",
   "education_or_profession",
-  "is_married"
+  "is_married",
+  "section_break_btgd",
+  "route",
+  "column_break_zxgo",
+  "is_published"
  ],
  "fields": [
   {
    "fieldname": "full_name",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "in_standard_filter": 1,
    "label": "Full Name",
    "reqd": 1,
    "search_index": 1
@@ -43,6 +46,7 @@
   {
    "fieldname": "relation",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Relation"
   },
   {
@@ -87,11 +91,32 @@
   {
    "fieldname": "section_break_ogvn",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_btgd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route"
+  },
+  {
+   "fieldname": "column_break_zxgo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "1",
+   "fieldname": "is_published",
+   "fieldtype": "Check",
+   "label": "Is Published"
   }
  ],
+ "has_web_view": 1,
  "index_web_pages_for_search": 1,
+ "is_published_field": "is_published",
  "links": [],
- "modified": "2023-10-24 16:59:44.616612",
+ "modified": "2023-11-10 21:53:52.735672",
  "modified_by": "Administrator",
  "module": "General Survey",
  "name": "FamilyMember",
@@ -122,6 +147,7 @@
   }
  ],
  "quick_entry": 1,
+ "route": "family_members",
  "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",

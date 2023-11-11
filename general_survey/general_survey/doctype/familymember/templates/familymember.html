@@ -1,0 +1,32 @@
+{% extends "templates/web.html" %}
+
+{% block page_content %}
+
+<div class="py-20 row">
+<div class="col-sm-2">
+</div>
+<div class="col">
+<h1>{{ full_name }}</h1>
+<p class="lead">
+    <span>{{ family_id }}</span>
+    <span>{{ email_address }}</span>
+    <span>{{ phone_number }}</span>
+    <span>{{education_or_profession}} </span>
+</p>
+<div>
+
+            {%- if is_married == 1 -%}
+            <span class="badge badge-success">Married</span>
+            {%- else -%}
+            <span class="badge badge-primary">Un Married</span>
+            {%- endif -%}
+
+        </div>
+<div class="mt-4">
+<div>Age: <strong>{{ age }}</strong></div>
+<div>Relation: <strong>{{ relation }}</strong></div>
+</div>
+</div>
+</div>
+
+{% endblock %}
