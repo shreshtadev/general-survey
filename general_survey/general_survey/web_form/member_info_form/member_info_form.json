@@ -7,7 +7,7 @@
  "allow_print": 0,
  "anonymous": 0,
  "apply_document_permissions": 0,
- "breadcrumbs": "[{\"label\": _(\"Member Info\"), \"route\":\"Member-info-form\"}]",
+ "breadcrumbs": "[{\"label\": _(\"Member Info\"), \"route\":\"member-info-form\"}]",
  "button_label": "Save",
  "condition_json": "[]",
  "creation": "2023-11-11 09:23:06.803106",
